@@ -1,0 +1,91 @@
+.icon {
+    display: block;
+    position: relative;
+    left: 95%;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.cards-module {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.card-module {
+    text-align: center;
+    width: 28%;
+    background-color: rgb(247, 247, 247);
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.item-img-module {
+    width: 100%;
+}
+
+.price-and-add {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards-list {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-list {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(247, 247, 247);
+}
+
+.item-img-list {
+    width: 10%;
+}
+
+.price {
+    color: rgb(248, 47, 47);
+}
+
+button {
+    color: rgb(248, 47, 47);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(248, 47, 47);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+h3 {
+    color: gray;
+}
+
