@@ -1,5 +1,7 @@
 # React + Vite
 
+[![Build status](https://ci.appveyor.com/api/projects/status/e138ei9sk4qph07c?svg=true)](https://ci.appveyor.com/project/Nikolaytcev/react-hw2-layouts)
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
